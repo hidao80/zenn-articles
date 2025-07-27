@@ -1,7 +1,7 @@
 ---
 title: MCP Serverチュートリアル(1) Sqlite3編
 emoji: "🧠"
-type: "tech" # tech: 技術記事
+type: "tutorial"
 topics: ["tutorial","sqlite","mcp","zero-config","model-context-protocol"]
 published: true
 ---
