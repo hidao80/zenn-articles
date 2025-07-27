@@ -1,3 +1,10 @@
+---
+title: MCP Serverチュートリアル(1) Sqlite3編
+emoji: "🧠"
+type: "tech" # tech: 技術記事
+topics: ["tutorial","sqlite","mcp","zero-config","model-context-protocol"]
+published: true
+---
 SQLiteデータベースを操作するためのModel Context Protocol (MCP) サーバーの最初のチュートリアルです。Cursorエディターやその他のMCP対応クライアントで使用できます。
 
 ## 本リポジトリの機能
