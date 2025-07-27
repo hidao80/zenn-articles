@@ -7,7 +7,8 @@ published: true
 ---
 SQLiteデータベースを操作するためのModel Context Protocol (MCP) サーバーの最初のチュートリアルです。Cursorエディターやその他のMCP対応クライアントで使用できます。
 
-[サンプルコードのリポジトリ](https://github.com/hidao80/mcp-tutorial-1)
+サンプルコードのリポジトリ
+https://github.com/hidao80/mcp-tutorial-1
 
 ## 本記事の機能
 
