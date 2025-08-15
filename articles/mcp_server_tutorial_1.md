@@ -100,8 +100,8 @@ winget install --id=astral-sh.uv
 - **Cursorの場合**: `.cursor/mcp.json`
 - **VS Codeの場合**: `.vscode/mcp.json`
 - **Windsurfの場合**: `.windsurf/mcp.json`
-- **Claudeデスクトップアプリの場合**: DXT
-- **LM Studioの場合**: アプリから直接設定します。
+- **Claudeデスクトップアプリの場合**: DXT（Desktop Extension：デスクトップ拡張機能）を使用します
+- **LM Studioの場合**: アプリから直接設定します
 
 このプロジェクトでは`./.cursor/mcp.json`と`./.vscode/mcp.json`と`./.windsurf/mcp.json`を
 配置しているため、プロジェクトを開いた際に自動的に認識されます。
