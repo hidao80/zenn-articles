@@ -189,7 +189,6 @@ DXTパッケージのビルドには以下が必要です：
 2. 生成された`.dxt`ファイルをClaude Desktopの設定＞拡張機能画面にドラッグアンドドロップ
 3. 「SQLite MCP Server」にSqliteのデータベースファイルのパスを与え、「有効」スイッチをオン（青色）にする
 4. データベースファイルが指定された位置にあれば、SQLite MCPサーバーが利用可能になります
-:::
 
 :::details LM Studioの場合
 ※以下の説明はLM Studio 0.3.23 (Build 3)を対象にしています。
@@ -208,16 +207,16 @@ SQLは内部的に発行されるため、詳細に指定するとき以外は�
 
 ### 動作結果のスクリーンショット
 
-:::details VS Codeの場合（:construction:準備中:construction:）
+:::details VS Codeの場合（ :construction: 準備中 :construction: ）
 <!-- ![VS Codeの場合](/images/mcp_server_tutorial_1/result_vs_code.png)-->
 ※現在、GitHub Copilotがチャットクォータに達しておりスクリーンショットが撮影できないため、後日追記します。
 :::
 
-:::Claudeデスクトップの場合
+:::details Claudeデスクトップの場合
 ![Claudeデスクトップの場合](/images/mcp_server_tutorial_1/result_claude_desktop.png)
 :::
 
-:::LM Studioの場合
+:::details LM Studioの場合
 ![LM Studioの場合](/images/mcp_server_tutorial_1/result_lm_studio.png)
 :::
 
