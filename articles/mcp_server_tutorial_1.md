@@ -206,7 +206,7 @@ SQLは内部的に発行されるため、詳細に指定するとき以外は�
 
 ### 動作結果のスクリーンショット
 
-:::details VS Codeの場合（ :construction: 準備中 :construction: ）
+:::details VS Codeの場合（🚧準備中🚧）
 <!-- ![VS Codeの場合](/images/mcp_server_tutorial_1/result_vs_code.png)-->
 ※現在、GitHub Copilotがチャットクォータに達しておりスクリーンショットが撮影できないため、後日追記します。
 :::
