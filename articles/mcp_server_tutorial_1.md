@@ -2,7 +2,7 @@
 title: MCP Serverチュートリアル(1) Sqlite3編
 emoji: "🔌"
 type: "tech"
-topics: ["tutorial","sqlite","mcp","zero-config","windows11","macOS","Linux"]
+topics: ["tutorial","sqlite","mcp","zero-config","Various OS"]
 published: true
 ---
 ## この記事について
