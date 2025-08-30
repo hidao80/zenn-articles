@@ -3,7 +3,7 @@ title: ローカルLLM AIでつくる無料ネット検索エージェント
 emoji: "🔌"
 type: "tech"
 topics: ["ai","mcp","zero-config","agnet","lm-studio"]
-published: false
+published: true
 ---
 ## この記事について
 
