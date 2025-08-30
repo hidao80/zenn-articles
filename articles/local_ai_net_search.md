@@ -95,7 +95,7 @@ LM StudioのGUIから`mcp.json`を編集します。
 [Settings]（右上のレンチ🔧マーク）→[Program]→[Integrations]→[Install▼]→[Edit mcp.json]から`mcp.json`をLM Studio内で開き、以下のjsonを記述または追記してください。
 
 :::details mcp.jsonを開くまでのクリック手順
-![LM StudioのGUIでmcp.jsonを開く](/images/Untitled_20250830/open_mcp_json.png)
+![LM StudioのGUIでmcp.jsonを開く](/images/local_ai_net_search/open_mcp_json.png)
 *LM StudioのGUIでmcp.jsonを開く*
 :::
 
@@ -133,10 +133,10 @@ Function Calling[^6]に対応したモデルを選択してください。推奨
 プロンプト送信前に、ツールのトグルスイッチがオンになっていることを確認してください。
 
 :::details ツールのトグルスイッチがオンにしたときの画面の様子
-![設定ペインのfetchツールがオンになっている](/images/Untitled_20250830/fetch_on_settings.png)
+![設定ペインのfetchツールがオンになっている](/images/local_ai_net_search/fetch_on_settings.png)
 *設定ペインのfetchツールがオンになっている*
 
-![プロンプト入力エリアのfetchツールがオンになっている](/images/Untitled_20250830/fetch_on_input_area_.png)
+![プロンプト入力エリアのfetchツールがオンになっている](/images/local_ai_net_search/fetch_on_input_area_.png)
 *プロンプト入力エリアのfetchツールがオンになっている*
 :::
 
@@ -167,7 +167,7 @@ AIツールからのアクセスを遮断する設定になっているWebサイ
 ### 動作結果のスクリーンショット
 
 :::details Windowsの場合
-![Windowsの場合](/images/Untitled_20250830/result_win.png)
+![Windowsの場合](/images/local_ai_net_search/result_win.png)
 :::
 
 ### トラブルシューティング
