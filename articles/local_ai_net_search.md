@@ -22,8 +22,7 @@ published: false
 :::
 
 ## tl;dr
-LM StudioのMCPコネクタ[^2]に`mcp-server-fetch`を追加して、Tool call[^3]（MCPサーバーの呼び出し）可能な
-AIモデルに使用許可を出してからプロンプトで調べるように指示する
+LM StudioのMCPコネクタ[^2]に`mcp-server-fetch`を追加して、Tool call[^3]（MCPサーバーの呼び出し）可能なAIモデルに使用許可を出してからプロンプトで調べるように指示する
 
 ## 1. 課題と解決のアプローチ
 
