@@ -52,7 +52,7 @@ ChatGPTなどのクラウドAIサービスは便利ですが、プライバシ�
 ### システム要件
 
 - LM Studio バージョン0.2.29以上
-- インターネット接続（初回セットアップ時）
+- インターネット接続（初回セットアップ時、インターネット検索実行時）
 - 対応OS：Windows 10/11、macOS、Linux
 
 ### 必要な前提知識
@@ -93,6 +93,11 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 LM StudioのGUIから`mcp.json`を編集します。
 
 [Settings]（右上のレンチ🔧マーク）→[Program]→[Integrations]→[Install▼]→[Edit mcp.json]から`mcp.json`をLM Studio内で開き、以下のjsonを記述または追記してください。
+
+:::details mcp.jsonを開くまでのクリック手順
+![LM StudioのGUIでmcp.jsonを開く](/images/Untitled_20250830/open_mcp_json.png)
+*LM StudioのGUIでmcp.jsonを開く*
+::L
 
 :::message alert
 すでに`mcpServers`要素が存在するときは`mcpServers`のプロパティとして
