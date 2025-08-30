@@ -97,7 +97,7 @@ LM StudioのGUIから`mcp.json`を編集します。
 :::details mcp.jsonを開くまでのクリック手順
 ![LM StudioのGUIでmcp.jsonを開く](/images/Untitled_20250830/open_mcp_json.png)
 *LM StudioのGUIでmcp.jsonを開く*
-::L
+:::
 
 :::message alert
 すでに`mcpServers`要素が存在するときは`mcpServers`のプロパティとして
