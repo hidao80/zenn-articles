@@ -136,7 +136,7 @@ Function Calling[^6]に対応したモデルを選択してください。推奨
 ![設定ペインのfetchツールがオンになっている](/images/local_ai_net_search/fetch_on_settings.png)
 *設定ペインのfetchツールがオンになっている*
 
-![プロンプト入力エリアのfetchツールがオンになっている](/images/local_ai_net_search/fetch_on_input_area_.png)
+![プロンプト入力エリアのfetchツールがオンになっている](/images/local_ai_net_search/fetch_on_input_area.png)
 *プロンプト入力エリアのfetchツールがオンになっている*
 :::
 
