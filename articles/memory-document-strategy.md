@@ -294,5 +294,3 @@ Web Speech API音声入力
 - 人間が読むのはおまけだが、レビューや共有には役立つ
 - 要件定義 → Design doc → ソース生成 → Memory doc更新 → ソース生成、というループを回す
 - プロジェクトでの仕様粒度も`spec/`内でできればなお良し
-
-[^1]: GitHub Blog. (2025). "Spec-driven development with AI: Get started with a new open source toolkit" https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
