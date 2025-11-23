@@ -1,7 +1,7 @@
 ---
 title: モダン開発ゼロから始めるアジャイル風SDD
 emoji: "🧠"
-type: "ideas"
+type: "idea"
 topics: ["ai","SDD","programming", "アジャイルSDD"]
 published: false
 ---
