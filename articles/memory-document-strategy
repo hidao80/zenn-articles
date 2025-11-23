@@ -72,7 +72,8 @@ flowchart LR
 ```
 :::
 
-:::details Memory doc `components.md` の例
+:::details Memory doc 'components.md' の例
+````
 # コンポーネント詳細
 
 ## App.vue（ルートコンポーネント）
@@ -197,6 +198,7 @@ Web Speech API音声入力
 
 ### 状態
 開発済みだが未統合
+````
 :::
 
 ---
