@@ -14,15 +14,14 @@ published: false
 :::message
 - **想定対象読者**: AIコーディングエージェントを用いた開発をするプログラマーやSE
 - **前提知識**: 
-  - SDD（Spec-driven development）を知っている
+  - SDD（Spec-driven development）[^1]を知っている
   - プログラミング経験：中級程度
   - AI利用経験：Claude Code、Codex CLI、Gemini CLIが何となく分かる
 - **tl;dr**: AIコーディングエージェントを使った開発を効率化するために、「AI向けにもドキュメント作ろう。それもAIにやらせよう」と言う話。どのみちプログラマーは`/explain`コマンドを使うの見越して。
 :::
 
-プログラマーはどうせAIに質問しながらバイブコーディングするので、AIコーディングエージェント（以下「AI」と表記）が理解できる
-仕様（Spec）を自然言語で符号化して、AIに渡すことがプログラマーとAI両方の認知負荷を下げることにつながると考えました。  
-ここではこの手法を「アジャイルSDD（Agile Spec-driven Development）」と呼びます。  
+プログラマーはどうせAIに質問しながらバイブコーディングするので、AIコーディングエージェント（以下「AI」と表記）が理解できる仕様（Spec）を自然言語で符号化して、AIに渡すことがプログラマーとAI両方の認知負荷を下げることにつながると考えました。  
+ここではこの手法を「アジャイルSDD（Agile Spec-driven Development）」と呼びます。
 
 ## アジャイルSDDの基本ループ
 1. 要件定義書とDesign docを自然言語で符号化
@@ -60,10 +59,12 @@ flowchart LR
 - **AI向けだけど人間も読める**：Markdown形式なので、AIの外部記憶でありながら人間のレビュー資料にもなる
 
 ## まとめ
-アジャイルSDDは「**AIがコードを理解するための自然言語ドキュメント**」を中心に回す開発手法です。  
-開発環境としてはMCPや外部サービスを使わなくても、AIコーディングエージェントだけで運用可能です。
+アジャイルSDDは「**AIがコードを理解するための自然言語ドキュメント**」を中心に回す開発手法です。開発環境としてはMCPや外部サービスを使わなくても、AIコーディングエージェントだけで運用可能です。
 
 Tipsとして、以下の割り切りが重要です：  
 - ドキュメントはAIが理解できれば十分。分からない時はAIに質問してから該当するソースコードを読めばいい
 - 人間が読むのはおまけだが、レビューや共有には役立つ
 - 要件定義 → Design doc → Memory doc → 改善ループ、という流れを回す
+- プロジェクトでの仕様粒度やMemory docの統一・バージョン管理は、リポジトリ直下に`spec/`ディレクトリを置き、同一リポジトリで管理するだけで解決させる
+
+[^1]: GitHub Blog. (2025). "Spec-driven development with AI: Get started with a new open source toolkit" https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
