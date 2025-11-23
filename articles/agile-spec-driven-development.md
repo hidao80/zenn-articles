@@ -36,6 +36,7 @@ AIコーディングエージェントを使った開発を効率化するため
 3. Memory doc（仮）の生成  
    - プロジェクト要約をAIに作らせる。Serena-mcp的な仕事
    - プロジェクト内でAIにコーディングするためのコンテキスト外部記憶として利用
+   - Memory docの統一・バージョン管理は、リポジトリ直下に`spec/`ディレクトリを置き、リポジトリ内で管理して解決する
    - 人間が閲覧・編集可能（**重要**）
 4. 改善ループ  
    - Memory docを参照させながらAIに追加機能や修正をプロンプトとして渡す
@@ -70,6 +71,6 @@ flowchart LR
 - ドキュメントはAIが理解できれば十分。分からない時はAIに質問してから該当するソースコードを読めばいい
 - 人間が読むのはおまけだが、レビューや共有には役立つ
 - 要件定義 → Design doc → ソース生成 → Memory doc更新 → ソース生成、というループを回す
-- プロジェクトでの仕様粒度やMemory docの統一・バージョン管理は、リポジトリ直下に`spec/`ディレクトリを置き、同一リポジトリで管理するだけで解決させる
+- プロジェクトでの仕様粒度も`spec/`内でできればなお良し
 
 [^1]: GitHub Blog. (2025). "Spec-driven development with AI: Get started with a new open source toolkit" https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
