@@ -3,7 +3,7 @@ title: AIの「記憶喪失」を防ぐ技術：AIにドキュメントを書か
 emoji: "🧠"
 type: "idea"
 topics: ["ai","programming", "memory_doc"]
-published: false
+published: true
 ---
 ## はじめに
 
