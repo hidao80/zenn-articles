@@ -294,3 +294,12 @@ Web Speech API音声入力
 - 人間が読むのはおまけだが、レビューや共有には役立つ
 - 要件定義 → Design doc → ソース生成 → Memory doc更新 → ソース生成、というループを回す
 - プロジェクトでの仕様粒度も`spec/`内でできればなお良し
+
+---
+
+## 2025/12/13 追記
+
+Claude Code向け自作スラッシュコマンド用のリポジトリに英語出力するものを作成しました。  
+ご参考まで。
+
+![.claude/commands/update-memory.md](https://github.com/hidao80/claude-code-commands-collection/blob/main/update-memory.md)
