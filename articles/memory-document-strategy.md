@@ -302,4 +302,4 @@ Web Speech API音声入力
 Claude Code向け自作スラッシュコマンド用のリポジトリに英語出力するものを作成しました。  
 ご参考まで。
 
-@[.claude/commands/update-memory.md](https://github.com/hidao80/claude-code-commands-collection/blob/main/update-memory.md)
+@[card](https://github.com/hidao80/claude-code-commands-collection/blob/main/update-memory.md)
