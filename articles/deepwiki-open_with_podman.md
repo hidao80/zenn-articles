@@ -94,8 +94,6 @@ winget install --id Canonical.Ubuntu.2404 -h
 ```
 :::
 
-<div id="Podmanのインストール"></div>
-
 :::details Podmanのインストール
 スタートメニューからUbuntuを起動し、アップデートをかけてからPodmanとpodman-composeをインストールします。
 
@@ -189,28 +187,22 @@ echo "$(ip route show | grep -i default | awk '{ print $3}') host.docker.interna
     podman-compose up
     ```
 
-2. <http://localhost:3000>にアクセスします。ブラウザでDeepWiki Openが表示されます（[図1](#pic-1)）。
+2. <http://localhost:3000>にアクセスします。ブラウザでDeepWiki Openが表示されます（図1）。
 3. ホーム画面上部のリポジトリパス入力テキストボックスに`docker-compose.yml`で指定したボリュームの`/app/repo`を指定して「Wikiを検索」ボタンをクリックします。詳細設定ダイアログが開きます。
 4. 詳細設定ダイアログでWikiの詳細度選択と作成に使うAIモデルの選択を行います。この手順書に沿っているなら利用できるのは「Ollama（ローカル）」の「qwen3:1.7b」だけです。選択して「Wikiを生成」をクリックします。
 5. Wiki作成の進捗表示画面が表示されます。完了するまで待ちましょう。
-6. Wikiが完成したらWiki画面が開きます（[図2](#pic-2)）。画面右下の吹き出しアイコンをクリックすると、Wikiの内容についてAIに質問できるダイアログが開きます。文章で質問を入力し「質問する」ボタンをクリックするとAIがWikiとデータベースの内容から回答を生成します。
-7. 画面左上の「ホーム」リンクをクリックするとホーム画面に戻ります。一度生成したWikiはキャッシュされ、次回からはすぐに閲覧とAIへの質問が可能になります（[図3](#pic-3)）。
+6. Wikiが完成したらWiki画面が開きます（図2）。画面右下の吹き出しアイコンをクリックすると、Wikiの内容についてAIに質問できるダイアログが開きます。文章で質問を入力し「質問する」ボタンをクリックするとAIがWikiとデータベースの内容から回答を生成します。
+7. 画面左上の「ホーム」リンクをクリックするとホーム画面に戻ります。一度生成したWikiはキャッシュされ、次回からはすぐに閲覧とAIへの質問が可能になります（図3）。
 
 ### 動作結果のスクリーンショット
-
-<div id="pic-1"></div>
 
 :::details 図1
 ![図1](/images/deepwiki-open_with_podman/deepwiki-open_1.png)
 :::
 
-<div id="pic-2"></div>
-
 :::details 図2
 ![図2](/images/deepwiki-open_with_podman/deepwiki-open_2.png)
 :::
-
-<div id="pic-3"></div>
 
 :::details 図3
 ![図3](/images/deepwiki-open_with_podman/deepwiki-open_3.png)
@@ -220,7 +212,7 @@ echo "$(ip route show | grep -i default | awk '{ print $3}') host.docker.interna
 
 #### Ollamaが呼び出せない場合
 
-`/etc/hosts`に`host.docker.internal`項目と[hostsファイルの変更](#hostsファイルの変更)節のコマンドで取得できるIPアドレスが設定されていますか？
+`/etc/hosts`に`host.docker.internal`項目とhostsファイルの変更節のコマンドで取得できるIPアドレスが設定されていますか？
 このIPアドレスはWindowsを再起動するごとに変わる可能性があります。
 
 #### Ollamaは呼び出せるが正常に終了しない
