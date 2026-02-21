@@ -2,7 +2,7 @@
 title: WSL2+Podmanでdeepwiki-openを使う
 emoji: "📖"
 type: "tech"
-topics: ["podman","deepwiki-open","wsl","ollama","ai"]
+topics: ["podman","deepwiki","wsl","ollama","ai"]
 published: false
 ---
 ## この記事について
