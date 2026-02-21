@@ -96,7 +96,7 @@ winget install --id Canonical.Ubuntu.2404 -h
 
 :::details Podmanのインストール
 
-<div id="Podmanのインストール"></div>
+<span id="Podmanのインストール"></span>
 
 スタートメニューからUbuntuを起動し、アップデートをかけてからPodmanとpodman-composeをインストールします。
 
@@ -202,21 +202,21 @@ echo "$(ip route show | grep -i default | awk '{ print $3}') host.docker.interna
 
 :::details 図1
 
-<div id="pic-1"></div>
+<span id="pic-1"></span>
 
 ![図1](/images/deepwiki-open_with_podman/deepwiki-open_1.png)
 :::
 
 :::details 図2
 
-<div id="pic-2"></div>
+<span id="pic-2"></span>
 
 ![図2](/images/deepwiki-open_with_podman/deepwiki-open_2.png)
 :::
 
 :::details 図3
 
-<div id="pic-3"></div>
+<span id="pic-3"></span>
 
 ![図3](/images/deepwiki-open_with_podman/deepwiki-open_3.png)
 :::
