@@ -21,10 +21,10 @@ published: false
 :::
 
 ## tl;dr
-DeepWikiのようなサービスを安全に運用するため、deepwiki-openをローカルホストのWSL上のPodmanとOllamaで動作させる。
-deepwiki-openを高速なOllamaとPodmanで利用するにあたり、Ollamaが実行されているホストOSであるWindowsのIPを`host.docker.internal`や`host.containers.internal`に割り当てる必要がある。
-デフォルトではWindowsで動作しているOllamaのアドレスを指定するときは`/etc/hosts`にDockerまたはPodman互換のドメイン名とWSLが持つWindowsへのIPアドレスを指定するとよい。
-ただし、WindowsのIPアドレスは起動するごとに変わる可能性がある。
+- DeepWikiのようなサービスを安全に運用するため、deepwiki-openをローカルホストのWSL上のPodmanとOllamaで動作させる。
+- deepwiki-openを高速なOllamaとPodmanで利用するにあたり、Ollamaが実行されているホストOSであるWindowsのIPを`host.docker.internal`や`host.containers.internal`に割り当てる必要がある。
+- デフォルトではWindowsで動作しているOllamaのアドレスを指定するときは`/etc/hosts`にDockerまたはPodman互換のドメイン名とWSLが持つWindowsへのIPアドレスを指定するとよい。
+- ただし、WindowsのIPアドレスは起動するごとに変わる可能性がある。
 
 ローカルリポジトリは`docker-compose.yml`を通じてボリュームとしてdeepwiki-openへ渡す。
 
@@ -135,8 +135,7 @@ OPENAI_API_KEY=dummy
 
 #### docker-compose.ymlの設定
 
-WSLのホストOSであるWindowsで動作しているOllamaサーバーを利用するために`extra_hosts`プロパティを追加し、
-任意のローカルリポジトリをコンテナからアクセスできるようにするため、`volumes`プロパティに任意のローカルリポジトリを追加します。
+WSLのホストOSであるWindowsで動作しているOllamaサーバーを利用するために`extra_hosts`プロパティを追加し、任意のローカルリポジトリをコンテナからアクセスできるようにするため、`volumes`プロパティに任意のローカルリポジトリを追加します。
 
 ```yml:docker-compose.yml
 services:
