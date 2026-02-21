@@ -21,6 +21,7 @@ published: false
 :::
 
 ## tl;dr
+DeepWikiのようなサービスを安全に運用するため、deepwiki-openをローカルホストのWSL上のPodmanとOllamaで動作させる。
 deepwiki-openを高速なOllamaとPodmanで利用するにあたり、Ollamaが実行されているホストOSであるWindowsのIPを`host.docker.internal`や`host.containers.internal`に割り当てる必要がある。
 デフォルトではWindowsで動作しているOllamaのアドレスを指定するときは`/etc/hosts`にDockerまたはPodman互換のドメイン名とWSLが持つWindowsへのIPアドレスを指定するとよい。
 ただし、WindowsのIPアドレスは起動するごとに変わる可能性がある。
